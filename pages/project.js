@@ -10,40 +10,37 @@ import ARRoute from '@/components/ProjectCard/ARRoute';
 
 function project() {
   const hells_imgList = [
-    'https://github.com/eunnho98/eunnho/blob/main/public/hellsmate/1.PNG',
-    'https://github.com/eunnho98/eunnho/blob/main/public/hellsmate/2.PNG',
-    'https://github.com/eunnho98/eunnho/blob/main/public/hellsmate/3.PNG',
-    'https://github.com/eunnho98/eunnho/blob/main/public/hellsmate/4.PNG',
-    'https://github.com/eunnho98/eunnho/blob/main/public/hellsmate/5.PNG',
+    'https://github.com/eunnho98/eunnho/blob/main/public/hellsmate/1.PNG?raw=true',
+    'https://github.com/eunnho98/eunnho/blob/main/public/hellsmate/2.PNG?raw=true',
+    'https://github.com/eunnho98/eunnho/blob/main/public/hellsmate/3.PNG?raw=true',
+    'https://github.com/eunnho98/eunnho/blob/main/public/hellsmate/4.PNG?raw=true',
+    'https://github.com/eunnho98/eunnho/blob/main/public/hellsmate/5.PNG?raw=true',
   ];
 
   const booking_imgList = [
-    'https://github.com/eunnho98/eunnho/blob/main/public/booking/1.PNG',
-    'https://github.com/eunnho98/eunnho/blob/main/public/booking/2.PNG',
-    'https://github.com/eunnho98/eunnho/blob/main/public/booking/3.PNG',
-    'https://github.com/eunnho98/eunnho/blob/main/public/booking/4.PNG',
+    'https://github.com/eunnho98/eunnho/blob/main/public/booking/1.PNG?raw=true',
+    'https://github.com/eunnho98/eunnho/blob/main/public/booking/2.PNG?raw=true',
+    'https://github.com/eunnho98/eunnho/blob/main/public/booking/3.PNG?raw=true',
+    'https://github.com/eunnho98/eunnho/blob/main/public/booking/4.PNG?raw=true',
   ];
 
   const AR_imgList = [
-    'https://github.com/eunnho98/eunnho/blob/main/public/AR/1.PNG',
-    'https://github.com/eunnho98/eunnho/blob/main/public/AR/2.PNG',
-    'https://github.com/eunnho98/eunnho/blob/main/public/AR/3.PNG',
+    'https://github.com/eunnho98/eunnho/blob/main/public/AR/1.PNG?raw=true',
+    'https://github.com/eunnho98/eunnho/blob/main/public/AR/2.PNG?raw=true',
+    'https://github.com/eunnho98/eunnho/blob/main/public/AR/3.PNG?raw=true',
   ];
 
   const bed_imgList = [
-    'https://github.com/eunnho98/eunnho/blob/main/public/KHULazy/1.PNG',
-    'https://github.com/eunnho98/eunnho/blob/main/public/KHULazy/2.PNG',
-    'https://github.com/eunnho98/eunnho/blob/main/public/KHULazy/3.PNG',
+    'https://github.com/eunnho98/eunnho/blob/main/public/KHULazy/1.PNG?raw=true',
+    'https://github.com/eunnho98/eunnho/blob/main/public/KHULazy/2.PNG?raw=true',
+    'https://github.com/eunnho98/eunnho/blob/main/public/KHULazy/3.PNG?raw=true',
   ];
 
   const myTone_imgList =
-    'https://github.com/eunnho98/eunnho/blob/main/public/myTone/1.PNG';
+    'https://github.com/eunnho98/eunnho/blob/main/public/myTone/1.PNG?raw=true';
   return (
     <Box mx="24px">
-      <Title
-        title="Project"
-        caption="이미지를 클릭하면 확대하여 볼 수 있습니다."
-      />
+      <Title title="Project" caption="" />
       <Hellsmate imgList={hells_imgList} title="Hellsmate" />
       <LineGraySmall w="100%" my="36px" />
       <NextBooking imgList={booking_imgList} title="Next Booking" />
