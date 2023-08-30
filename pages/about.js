@@ -14,7 +14,7 @@ import Link from 'next/link';
 function about() {
   return (
     <Box mx="24px">
-      <Title title="About" caption="Eunnho Kim" />
+      <Title title="About" caption="" />
       <Text fontSize="3xl" fontWeight="bold">
         Interest
       </Text>
