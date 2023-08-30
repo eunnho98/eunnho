@@ -50,7 +50,7 @@ function Header() {
     >
       <Link href="/">
         <Text
-          fontSize="3xl"
+          fontSize="2xl"
           fontWeight="bold"
           _hover={{
             color: '#FFC0CB',

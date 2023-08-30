@@ -11,7 +11,7 @@ function Title({ title, caption }) {
       <Text fontSize="2xl" ml="6px">
         {caption}
       </Text>
-      <LineGrayLarge mt="12px" mb="70px" />
+      <LineGrayLarge mt="12px" mb="36px" />
     </Box>
   );
 }

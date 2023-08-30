@@ -7,7 +7,7 @@ function Nav(props) {
   return (
     <Box onClick={props.onClick}>
       <Text
-        fontSize="2xl"
+        fontSize="xl"
         fontWeight="semibold"
         _hover={{
           color: '#FFC0CB',

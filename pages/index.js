@@ -9,28 +9,16 @@ import Link from 'next/link';
 function index() {
   return (
     <Box mx="24px">
-      <Title title="김은호의 블로그" caption="환영합니다." />
+      <Title title="Eunnho Kim" caption="" />
       <Profile />
-      <Box mt="100px">
+      <Box mt="50px">
         <Text fontSize="4xl" fontWeight="bold">
-          최근 포스트
+          Recent Post
         </Text>
         <LineGraySmall mt="15px" />
-        <Post
-          category="개발"
-          title="ReactJS에 대하여"
-          caption="ReactJS를 공부하고 정리를 해보았습니다."
-        />
-        <Post
-          category="개발"
-          title="ReactJS에 대하여"
-          caption="ReactJS를 공부하고 정리를 해보았습니다."
-        />
-        <Post
-          category="개발"
-          title="ReactJS에 대하여"
-          caption="ReactJS를 공부하고 정리를 해보았습니다."
-        />
+        <Post category="Category" title="Title" caption="Update coming soon" />
+        <Post category="Category" title="Title" caption="Update coming soon" />
+        <Post category="Category" title="Title" caption="Update coming soon" />
       </Box>
 
       <Link href="/posts">
@@ -42,8 +30,9 @@ function index() {
           display="block"
           margin="0 auto"
           mt="32px"
+          isDisabled="true"
         >
-          더 많은 포스트 보기
+          More Post
         </Button>
       </Link>
     </Box>
