@@ -15,6 +15,7 @@ function project() {
     'https://github.com/eunnho98/eunnho/blob/main/public/hellsmate/3.PNG?raw=true',
     'https://github.com/eunnho98/eunnho/blob/main/public/hellsmate/4.PNG?raw=true',
     'https://github.com/eunnho98/eunnho/blob/main/public/hellsmate/5.PNG?raw=true',
+    'https://raw.githubusercontent.com/eunnho98/eunnho/main/public/hellsmate/6.jpg',
   ];
 
   const booking_imgList = [
