@@ -1,21 +1,43 @@
-import { Box, HStack, Text, VStack } from '@chakra-ui/react';
+import {
+  Box,
+  HStack,
+  ListItem,
+  Text,
+  UnorderedList,
+  VStack,
+} from '@chakra-ui/react';
 import React from 'react';
 import Title from '@/components/Title';
 import { LineGraySmall } from '@/components/layout/Line';
+import Link from 'next/link';
 
 function about() {
   return (
     <Box mx="24px">
-      <Title title="About" caption="Who am I ❓" />
-      <Text fontSize="2xl">안녕하세요, 김은호입니다! 😎</Text>
-      <Text fontSize="2xl">데이터 분석과 웹을 공부하고 있습니다.</Text>
-      <Box mt="100px">
-        <Text fontSize="4xl" fontWeight="bold">
+      <Title title="About" caption="Eunnho Kim" />
+      <Text fontSize="3xl" fontWeight="bold">
+        Interest
+      </Text>
+      <LineGraySmall mt="15px" />
+
+      <Text fontSize="xl" mt="24px">
+        I am interested in data science, web, and UI/UX.
+      </Text>
+      <Text fontSize="xl" mt="8px">
+        Although I may be lacking a lot since I entered the lab late in the
+        school year, I will continue to work hard with passion and persistence.
+      </Text>
+      <Text fontSize="xl" mt="8px">
+        My goal is to build a hyper-personalized marketing model through user
+        data analysis.
+      </Text>
+      <Box mt="64px">
+        <Text fontSize="3xl" fontWeight="bold">
           Stack
         </Text>
         <LineGraySmall mt="15px" />
         <VStack align="flex-start">
-          <Text fontSize="3xl" fontWeight="bold" mt="24px">
+          <Text fontSize="2xl" fontWeight="bold" mt="24px">
             Data Analysis
           </Text>
           <HStack wrap="wrap" mt="8px">
@@ -40,7 +62,7 @@ function about() {
               src="https://img.shields.io/badge/scikit learn-F7931E?style=for-the-badge&logo=scikit learn&logoColor=white"
             />
           </HStack>
-          <Text fontSize="3xl" fontWeight="bold" mt="24px">
+          <Text fontSize="2xl" fontWeight="bold" mt="24px">
             Web
           </Text>
           <HStack wrap="wrap" mt="8px">
@@ -95,7 +117,7 @@ function about() {
               src="https://img.shields.io/badge/recoil-3578E5?style=for-the-badge&logo=recoil&logoColor=white"
             />
           </HStack>
-          <Text fontSize="3xl" fontWeight="bold" mt="24px">
+          <Text fontSize="2xl" fontWeight="bold" mt="24px">
             Else
           </Text>
           <HStack wrap="wrap" mt="8px">
@@ -126,6 +148,46 @@ function about() {
             />
           </HStack>
         </VStack>
+      </Box>
+      <Box mt="64px">
+        <Text fontSize="3xl" fontWeight="bold">
+          Career
+        </Text>
+        <LineGraySmall mt="15px" />
+        <UnorderedList mt="24px" spacing={4}>
+          <ListItem fontSize="xl">
+            <Text as="span" fontWeight="bold">
+              U
+            </Text>
+            ser e
+            <Text as="span" fontWeight="bold">
+              X
+            </Text>
+            perience
+            <Text as="span" fontWeight="bold">
+              C
+            </Text>
+            omputing Lab (2023/09 ~)
+            <Link href="https://skpark-khu.github.io/">
+              <Text
+                ml="24px"
+                as="span"
+                textColor="gray.400"
+                fontWeight="bold"
+                _hover={{
+                  color: 'blue.300',
+                  transitionDuration: '0.2s',
+                  transitionTimingFunction: 'linear',
+                }}
+              >
+                Visit →
+              </Text>
+            </Link>
+          </ListItem>
+          <ListItem fontSize="xl">
+            KyungHee University, Department of Computer Engineering (2018/03 ~)
+          </ListItem>
+        </UnorderedList>
       </Box>
     </Box>
   );
