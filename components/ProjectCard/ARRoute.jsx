@@ -188,7 +188,7 @@ function ARRoute(props) {
         </Flex>
       )}
 
-      <Modal isOpen={isOpen} onClose={onClose} size="5xl">
+      <Modal isOpen={isOpen} onClose={onClose} size="5xl" isCentered>
         <ModalOverlay />
         <ModalContent>
           <ModalBody>
