@@ -3,8 +3,8 @@ import { HStack, Avatar, VStack, Text, Box } from '@chakra-ui/react';
 import { FacebookIcon, GithubIcon, GmailIcon, InstagramIcon } from '@/icons';
 function Profile() {
   return (
-    <Box h="100px" m="50px auto">
-      <HStack gap={10}>
+    <Box m="50px auto">
+      <HStack gap={3}>
         <Avatar size="2xl" src="img.jpg" border="4px solid black" zIndex={-1} />
         <VStack>
           <Text fontSize="xl">

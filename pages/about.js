@@ -52,9 +52,9 @@ function about() {
               src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"
             />
             <img
-              width={200}
-              height={200}
-              src="https://img.shields.io/badge/tensorflow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"
+              width={150}
+              height={150}
+              src="https://img.shields.io/badge/pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"
             />
             <img
               width={200}
