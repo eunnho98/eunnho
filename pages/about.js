@@ -24,8 +24,8 @@ function about() {
         I am interested in data science, web, and UI/UX.
       </Text>
       <Text fontSize="xl" mt="8px">
-        Although I may be lacking a lot since I entered the lab late in the
-        school year, I will continue to work hard with passion and persistence.
+        I strive to improve UX and contribute to the HCI field through user data
+        analysis.
       </Text>
       <Text fontSize="xl" mt="8px">
         My goal is to build a hyper-personalized marketing model through user
@@ -146,6 +146,11 @@ function about() {
               height={100}
               src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"
             />
+            <img
+              width={140}
+              height={140}
+              src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"
+            />
           </HStack>
         </VStack>
       </Box>
@@ -163,11 +168,11 @@ function about() {
             <Text as="span" fontWeight="bold">
               X
             </Text>
-            perience
+            perience{' '}
             <Text as="span" fontWeight="bold">
               C
             </Text>
-            omputing Lab (2023/09 ~)
+            omputing Lab
             <Link href="https://skpark-khu.github.io/">
               <Text
                 ml="24px"
@@ -182,10 +187,13 @@ function about() {
               >
                 Visit →
               </Text>
+              <br />
+              (2023/09 ~)
             </Link>
           </ListItem>
           <ListItem fontSize="xl">
-            KyungHee University, Department of Computer Engineering (2018/03 ~)
+            KyungHee University, Department of Computer Engineering <br />
+            (2018/03 ~ 2024/02)
           </ListItem>
         </UnorderedList>
       </Box>

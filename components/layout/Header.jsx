@@ -74,6 +74,7 @@ function Header() {
         <HStack gap={5}>
           <Nav link="/posts">Posts</Nav>
           <Nav link="/project">Project</Nav>
+          <Nav link="/paper">Paper</Nav>
           <Nav link="/about">About</Nav>
           <IconButton size="lg" onClick={handleColorModeToggle}>
             {colorMode === 'dark' ? <SunIcon /> : <MoonIcon />}

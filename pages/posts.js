@@ -5,7 +5,7 @@ import Title from '@/components/Title';
 function posts() {
   return (
     <Box mx="24px">
-      <Title title="Posts" caption="" />
+      <Title title="Posts" caption="Update Comming Soon!" />
     </Box>
   );
 }
