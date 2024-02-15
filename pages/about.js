@@ -192,7 +192,7 @@ function about() {
             </Link>
           </ListItem>
           <ListItem fontSize="xl">
-            KyungHee University, Department of Computer Engineering <br />
+            Kyung Hee University, Department of Computer Engineering <br />
             (2018/03 ~ 2024/02)
           </ListItem>
         </UnorderedList>
