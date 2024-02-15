@@ -24,6 +24,7 @@ function Badge(props) {
   } else if (props.type === 'pdf') {
     return (
       <Text
+        as="a"
         px="6px"
         h="24px"
         bgColor="red.300"
@@ -32,6 +33,8 @@ function Badge(props) {
         borderRadius="6px"
         lineHeight="22px"
         cursor="pointer"
+        target="_blank"
+        href={props.link}
       >
         {props.name}
       </Text>

@@ -16,7 +16,7 @@ function KCSE() {
           name="KCSE 2024"
           link="http://sigsoft.or.kr/kcse2024/"
         />
-        <Badge type="pdf" name="PDF" />
+        <Badge type="pdf" name="PDF" link="/pdf/kcse.pdf" />
       </HStack>
       <HStack w="100%" gap="8">
         <Image
