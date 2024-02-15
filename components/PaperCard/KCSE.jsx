@@ -18,7 +18,16 @@ function KCSE() {
         />
         <Badge type="pdf" name="PDF" link="/pdf/kcse.pdf" />
       </HStack>
-      <HStack w="100%" gap="8">
+      <Text as="i">
+        2024. Korea Conference on Software Engineering 2024 (KCSE2024)
+      </Text>
+      <Text>
+        <Text as="span" fontWeight="bold">
+          김은호
+        </Text>
+        , 박상근
+      </Text>
+      <HStack w="100%" gap="8" mt="8px">
         <Image
           w="250px"
           h="200px"
