@@ -92,6 +92,9 @@ function Header() {
             <Nav link="/project" onClick={onClose}>
               Project
             </Nav>
+            <Nav link="/paper" onClick={onClose}>
+              Paper
+            </Nav>
             <Nav link="/about" onClick={onClose}>
               About
             </Nav>
