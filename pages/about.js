@@ -161,6 +161,7 @@ function about() {
         <LineGraySmall mt="15px" />
         <UnorderedList mt="24px" spacing={4}>
           <ListItem fontSize="xl">
+            <Text as="span">Masters Student in </Text>
             <Text as="span" fontWeight="bold">
               U
             </Text>
@@ -188,8 +189,24 @@ function about() {
                 Visit →
               </Text>
               <br />
-              (2023/09 ~)
+              (2024/03 ~)
             </Link>
+          </ListItem>
+          <ListItem fontSize="xl">
+            <Text as="span">Undergraduate Student in </Text>
+            <Text as="span" fontWeight="bold">
+              U
+            </Text>
+            ser e
+            <Text as="span" fontWeight="bold">
+              X
+            </Text>
+            perience{' '}
+            <Text as="span" fontWeight="bold">
+              C
+            </Text>
+            omputing Lab
+            <Text>(2023/09 ~ 2024/02)</Text>
           </ListItem>
           <ListItem fontSize="xl">
             Kyung Hee University, Department of Computer Engineering <br />
