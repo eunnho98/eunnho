@@ -72,10 +72,8 @@ function Header() {
         </HStack>
       ) : (
         <HStack gap={5}>
-          <Nav link="/posts">Posts</Nav>
           <Nav link="/project">Project</Nav>
           <Nav link="/paper">Paper</Nav>
-          <Nav link="/about">About</Nav>
           <IconButton size="lg" onClick={handleColorModeToggle}>
             {colorMode === 'dark' ? <SunIcon /> : <MoonIcon />}
           </IconButton>
@@ -86,17 +84,11 @@ function Header() {
         <DrawerOverlay />
         <DrawerContent>
           <DrawerBody mt="24px">
-            <Nav link="/posts" onClick={onClose}>
-              Posts
-            </Nav>
             <Nav link="/project" onClick={onClose}>
               Project
             </Nav>
             <Nav link="/paper" onClick={onClose}>
               Paper
-            </Nav>
-            <Nav link="/about" onClick={onClose}>
-              About
             </Nav>
           </DrawerBody>
         </DrawerContent>
