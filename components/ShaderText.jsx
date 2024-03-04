@@ -1,4 +1,4 @@
-import React, { useMemo, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Text, keyframes } from '@chakra-ui/react';
 
 // 글자 입력 속도

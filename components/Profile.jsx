@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { HStack, Avatar, VStack, Text, Box } from '@chakra-ui/react';
-import { FacebookIcon, GithubIcon, GmailIcon, InstagramIcon } from '@/icons';
 function Profile() {
   return (
     <Box m="50px auto">

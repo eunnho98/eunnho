@@ -1,10 +1,8 @@
 import Title from '@/components/Title';
-import Post from '@/components/Post';
 import Profile from '@/components/Profile';
 import { LineGraySmall } from '@/components/layout/Line';
 import {
   Box,
-  Button,
   Text,
   VStack,
   HStack,
