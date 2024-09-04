@@ -23,15 +23,16 @@ function index() {
       <LineGraySmall mt="15px" />
 
       <Text fontSize="xl" mt="24px">
-        I am interested in data science, web, and UI/UX.
+        I am interested in data analysis, web, UI/UX, and I am especially
+        interested in social data analysis
       </Text>
       <Text fontSize="xl" mt="8px">
         I strive to improve UX and contribute to the HCI field through user data
         analysis.
       </Text>
       <Text fontSize="xl" mt="8px">
-        My goal is to build a hyper-personalized marketing model through user
-        data analysis.
+        My goal is to enable users to have a better experience and create value
+        through analysis of user behavior data within the social system.
       </Text>
       <Box mt="64px">
         <Text fontSize="3xl" fontWeight="bold">
