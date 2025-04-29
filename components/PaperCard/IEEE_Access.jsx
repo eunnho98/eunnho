@@ -9,7 +9,7 @@ import {
 import React from 'react';
 import Badge from '../Badge';
 
-function KCSE() {
+function Access() {
   const title =
     'An Empirical Study of User Playback Interactions and Engagement in Mobile Video Viewing';
 
@@ -27,16 +27,16 @@ function KCSE() {
       <Text as="i">2025. IEEE Access</Text>
       <Text>
         <Text as="span" fontWeight="bold">
-          김은호
+          Eunnho Kim
         </Text>
-        , 박상근
+        , Seungjae Oh, Sangkeun Park
       </Text>
       {isMdOrSmaller ? (
         <VStack mt="12px">
           <Image
             w="120"
             h="240px"
-            src="https://github.com/eunnho98/eunnho/blob/main/public/KCSE/1.PNG?raw=true"
+            src="https://github.com/eunnho98/eunnho/blob/main/public/Access/1.png?raw=true"
             borderRadius="6px"
           />
           <Text fontSize="14px" mt="12px">
@@ -64,11 +64,11 @@ function KCSE() {
           </Text>
         </VStack>
       ) : (
-        <HStack w="100%" gap="8" mt="8px">
+        <HStack w="100%" gap="12" mt="8px">
           <Image
             w="250px"
             h="200px"
-            src="https://github.com/eunnho98/eunnho/blob/main/public/KCSE/1.PNG?raw=true"
+            src="https://github.com/eunnho98/eunnho/blob/main/public/Access/1.png?raw=true"
             borderRadius="6px"
             flex="1"
           />
@@ -101,4 +101,4 @@ function KCSE() {
   );
 }
 
-export default KCSE;
+export default Access;
