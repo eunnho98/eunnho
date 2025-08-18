@@ -7,8 +7,15 @@ import { LineGraySmall } from '@/components/layout/Line';
 import CheckMyTone from '@/components/ProjectCard/CheckMyTone';
 import KHULazyBed from '@/components/ProjectCard/KHULazyBed';
 import ARRoute from '@/components/ProjectCard/ARRoute';
+import Etra from '@/components/ProjectCard/Etra';
 
 function project() {
+  const etra_imgList = [
+    'https://github.com/eunnho98/eunnho/blob/main/public/ETRA/1.PNG?raw=true',
+    'https://github.com/eunnho98/eunnho/blob/main/public/ETRA/2.PNG?raw=true',
+    'https://github.com/eunnho98/eunnho/blob/main/public/ETRA/3.PNG?raw=true',
+  ];
+
   const hells_imgList = [
     'https://github.com/eunnho98/eunnho/blob/main/public/hellsmate/1.PNG?raw=true',
     'https://github.com/eunnho98/eunnho/blob/main/public/hellsmate/2.PNG?raw=true',
@@ -42,6 +49,8 @@ function project() {
   return (
     <Box mx="24px">
       <Title title="Project" caption="" />
+      <Etra imgList={etra_imgList} title="Personalized AI Tutor" />
+      <LineGraySmall w="100%" my="36px" />
       <Hellsmate imgList={hells_imgList} title="Hellsmate" />
       <LineGraySmall w="100%" my="36px" />
       <NextBooking imgList={booking_imgList} title="Next Booking" />

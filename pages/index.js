@@ -217,6 +217,26 @@ function index() {
           </ListItem>
         </UnorderedList>
       </Box>
+      <Box mt="64px">
+        <Text fontSize="3xl" fontWeight="bold">
+          Award
+        </Text>
+        <LineGraySmall mt="15px" />
+        <UnorderedList mt="24px" spacing={4}>
+          <ListItem fontSize="xl">
+            🏆 Best Poster Award at KCC2025 (2025/08)
+          </ListItem>
+          <ListItem fontSize="xl">
+            🏅 Selected for the Khreative U+ <br />
+            ETRA (Eminent TA/RA) Excellent Support Program (2025/07)
+          </ListItem>
+          <ListItem fontSize="xl">
+            🏅 Excellence Award at UNITHON, an IT Alliance Community Hackathon{' '}
+            <br />
+            (2022/09)
+          </ListItem>
+        </UnorderedList>
+      </Box>
     </Box>
   );
 }

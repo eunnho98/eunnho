@@ -40,27 +40,18 @@ function Access() {
             borderRadius="6px"
           />
           <Text fontSize="14px" mt="12px">
-            Mobile video viewing on popular platforms such as YouTube and
-            Netflix is widespread, yet the role of specific viewing interactions
-            in shaping user engagement remains underexamined. This study
-            investigates how skipping behaviors (including their types and
-            directions) and playback speed adjustments relate to user
-            engagement, with a focus on video abandonment and user satisfaction.
-            We developed a custom mobile web application for video viewing and
-            collected viewing logs and self-reports from 25 participants during
-            two 10-day field studies. Our findings reveal that different skip
-            types and directions are associated with distinct engagement
-            outcomes. For example, scrubbing often correlates with higher
-            abandonment, whereas backward skips may indicate greater engagement.
-            Playback speed adjustments can signify deeper involvement, allowing
-            users to tailor their viewing speeds without missing key content.
-            Notably, video abandonment did not always equate with
-            dissatisfaction; some users left after meeting their immediate
-            viewing goals. These insights suggest that users’ playback
-            interactions may serve as indicators of user engagement and can be
-            incorporated into video recommendation systems to enhance user
-            satisfaction. We conclude by discussing the design implications of
-            enhancing user satisfaction.
+            This study investigated how mobile video viewing behaviors, such as
+            skipping and adjusting playback speed, relate to user engagement and
+            satisfaction. Based on data from 25 participants, the research found
+            that different types of skips have distinct meanings: scrubbing
+            often leads to video abandonment, while backward skips may indicate
+            deeper engagement. Adjusting playback speed was also shown to
+            signify a user's deeper involvement. The study notably revealed that
+            video abandonment does not always mean dissatisfaction, as some
+            users left after achieving their viewing goals. These insights
+            suggest that analyzing users' playback interactions can serve as a
+            valuable indicator of engagement, which can then be used to improve
+            video recommendation systems.
           </Text>
         </VStack>
       ) : (
@@ -73,27 +64,18 @@ function Access() {
             flex="1"
           />
           <Text flex="2" fontSize="14px">
-            Mobile video viewing on popular platforms such as YouTube and
-            Netflix is widespread, yet the role of specific viewing interactions
-            in shaping user engagement remains underexamined. This study
-            investigates how skipping behaviors (including their types and
-            directions) and playback speed adjustments relate to user
-            engagement, with a focus on video abandonment and user satisfaction.
-            We developed a custom mobile web application for video viewing and
-            collected viewing logs and self-reports from 25 participants during
-            two 10-day field studies. Our findings reveal that different skip
-            types and directions are associated with distinct engagement
-            outcomes. For example, scrubbing often correlates with higher
-            abandonment, whereas backward skips may indicate greater engagement.
-            Playback speed adjustments can signify deeper involvement, allowing
-            users to tailor their viewing speeds without missing key content.
-            Notably, video abandonment did not always equate with
-            dissatisfaction; some users left after meeting their immediate
-            viewing goals. These insights suggest that users’ playback
-            interactions may serve as indicators of user engagement and can be
-            incorporated into video recommendation systems to enhance user
-            satisfaction. We conclude by discussing the design implications of
-            enhancing user satisfaction.
+            This study investigated how mobile video viewing behaviors, such as
+            skipping and adjusting playback speed, relate to user engagement and
+            satisfaction. Based on data from 25 participants, the research found
+            that different types of skips have distinct meanings: scrubbing
+            often leads to video abandonment, while backward skips may indicate
+            deeper engagement. Adjusting playback speed was also shown to
+            signify a user's deeper involvement. The study notably revealed that
+            video abandonment does not always mean dissatisfaction, as some
+            users left after achieving their viewing goals. These insights
+            suggest that analyzing users' playback interactions can serve as a
+            valuable indicator of engagement, which can then be used to improve
+            video recommendation systems.
           </Text>
         </HStack>
       )}
