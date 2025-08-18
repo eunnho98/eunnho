@@ -40,7 +40,7 @@ function KCSE() {
           <Image
             w="120"
             h="240px"
-            src="https://github.com/eunnho98/eunnho/blob/main/public/KCC2/1.PNG?raw=true"
+            src="https://github.com/eunnho98/eunnho/blob/main/public/KCC2/1.png?raw=true"
             borderRadius="6px"
           />
           <Text fontSize="14px" mt="12px">
@@ -59,7 +59,7 @@ function KCSE() {
           <Image
             w="250px"
             h="200px"
-            src="https://github.com/eunnho98/eunnho/blob/main/public/KCC2/1.PNG?raw=true"
+            src="https://github.com/eunnho98/eunnho/blob/main/public/KCC2/1.png?raw=true"
             borderRadius="6px"
             flex="1"
           />

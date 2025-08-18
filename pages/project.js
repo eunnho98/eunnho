@@ -11,9 +11,9 @@ import Etra from '@/components/ProjectCard/Etra';
 
 function project() {
   const etra_imgList = [
-    'https://github.com/eunnho98/eunnho/blob/main/public/ETRA/1.PNG?raw=true',
-    'https://github.com/eunnho98/eunnho/blob/main/public/ETRA/2.PNG?raw=true',
-    'https://github.com/eunnho98/eunnho/blob/main/public/ETRA/3.PNG?raw=true',
+    'https://github.com/eunnho98/eunnho/blob/main/public/ETRA/1.png?raw=true',
+    'https://github.com/eunnho98/eunnho/blob/main/public/ETRA/2.png?raw=true',
+    'https://github.com/eunnho98/eunnho/blob/main/public/ETRA/3.png?raw=true',
   ];
 
   const hells_imgList = [
